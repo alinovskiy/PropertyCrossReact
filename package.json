@@ -1,0 +1,43 @@
+{
+  "name": "andersen",
+  "version": "1.0.0",
+  "description": "training project",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "author": "Aleksandr Alinovskiy",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash.omit": "^4.5.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "4.3.1",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/lodash.omit": "^4.5.6",
+    "@types/react": "^16.8.3",
+    "@types/react-dom": "^16.8.2",
+    "@types/react-redux": "^7.0.1",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/recompose": "^0.30.5",
+    "@types/redux-logger": "^3.0.7",
+    "css-loader": "^2.1.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "prettier": "^1.16.4",
+    "redux-logger": "^3.0.6",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
